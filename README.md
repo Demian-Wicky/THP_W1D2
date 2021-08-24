@@ -14,4 +14,4 @@ Project is created with
 - CSS3
 
 ## Setup
-Open html file in your browser.
+Open `index.html` file in your browser.
