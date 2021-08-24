@@ -10,8 +10,8 @@ Made during [The Hacking Project](https://www.thehackingproject.org) course on W
 
 ## Technologies
 Project is created with
-- html5
-- css3
+- HTML5
+- CSS3
 
 ## Setup
 Open html file in your browser.
