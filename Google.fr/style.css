@@ -64,11 +64,13 @@ header ul li a:hover {
 
 .content {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /*-LOGO------------------------------------------*/
 .logo {
-  margin-top: 200px;
   margin-bottom: 20px;
   display: flex;
   justify-content: center;
@@ -87,7 +89,7 @@ header ul li a:hover {
 
   margin-right: 10px;
   display: flex;
-  max-width: 582px;
+  width: 590px;
 
   height: 45px;
   margin-right: auto;
@@ -210,7 +212,7 @@ footer a:hover {
   text-decoration: underline;
 }
 
-.leaf{
+.leaf {
   height: 14px;
   margin-right: 7px;
 }
@@ -220,13 +222,15 @@ footer a:hover {
   position: absolute;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 100px;
+  width: 235px;
   left: 0;
   right: 0;
   text-align: center;
+
 }
 
 .ul1 {
+  z-index: 5;
   float: right;
   display: inline-block;
   margin-bottom: 30px;
@@ -234,9 +238,17 @@ footer a:hover {
 }
 
 .ul2 {
+  z-index: 5;
   float: left;
   display: inline-block;
+}
 
+@media screen and (max-width: 620px) {
+  .searchbar {
+    width: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
 }
 
 @media screen and (max-width: 1230px) {
@@ -247,7 +259,7 @@ footer a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    }
+  }
 
   .ul1 {
     float: none;
