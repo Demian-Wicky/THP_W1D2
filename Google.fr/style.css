@@ -34,13 +34,28 @@ header ul li a:hover {
   text-decoration: underline;
 }
 
-.squares {
+.dots_container {
+  padding-bottom: 8px;
+  padding-top: 16px;
+  padding-left: 11px;
+  padding-right: 7px;
+  border-radius: 50%;
+}
+
+.dots_container:hover {
+  background-color: #f1f1f2;
+}
+
+.dots {
   width: 17px;
 }
 
 .profilepicture {
   width: 32px;
   border-radius: 50%;
+}
+.profilepicture:hover {
+  outline: #f1f1f2 solid 3px;
 }
 
 /*-FIN HEADER------------------------------------------*/
