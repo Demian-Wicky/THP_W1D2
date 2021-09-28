@@ -210,17 +210,45 @@ footer a:hover {
   text-decoration: underline;
 }
 
+.leaf{
+  height: 14px;
+  margin-right: 7px;
+}
+
+.ul0 {
+  margin-bottom: 30px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 100px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
 .ul1 {
   float: right;
   display: inline-block;
+  margin-bottom: 30px;
+  margin-right: 26px;
 }
 
 .ul2 {
   float: left;
   display: inline-block;
+
 }
 
-@media screen and (max-width: 1022px) {
+@media screen and (max-width: 1230px) {
+  .ul0 {
+    position: relative;
+    padding-left: 0px;
+    float: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
   .ul1 {
     float: none;
     display: flex;
